@@ -1,13 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+//import { App } from "./App";
+import reportWebVitals from "./reportWebVitals";
+//import FetchDataComponent from "./FetchDataComponent";
+//import WeatherApi from "./WeatherApi";
+//import IntervalComponent from "./IntervalComponent";
+//import ControlledInput from "./ControlledInput";
+//import UncontrolledForm from "./UncontrolledForm";
+import LoginComponent from "./LoginComponent";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <LoginComponent />
   </React.StrictMode>
 );
 
